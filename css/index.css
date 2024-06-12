@@ -1,4 +1,9 @@
-@import "global.css";
-@import "controls.css";
-@import "header.css";
-@import "products.css";
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: red !important;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: url(../img/banana.svg);
+}
